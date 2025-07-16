@@ -19,3 +19,22 @@ https://www.thingiverse.com/thing:2912903
 
 this is the inspiration for the project 
 https://github.com/ginokgx/xbox360slimRF/tree/main
+
+
+## BOM
+
+USB C port https://www.digikey.com/short/wnwh8wq2 you can also hack up an old cable
+Xiao RP2040 https://www.digikey.com/short/29jcv89m
+Xbox 360 RF  board
+
+## wiring  guide
+### usb c port
+- D+ to D+ on rf board
+- D- to D- on rf board
+- Gnd to gnd
+- 5v to p1 (5v) on rp2040
+
+### xiao rp20 
+- SDA p6 to  sda on rf board 
+- SCL p7 to scl on rf board 
+- p2 to rf button
