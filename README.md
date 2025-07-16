@@ -12,3 +12,4 @@ This is an adapter that allows you to connect an Xbox 360 controller to a PC via
 ## Wiring
 
 I've included some basic wiring diagrams.
+You also have to select the drivers manually on the computer they're not that hard to find
